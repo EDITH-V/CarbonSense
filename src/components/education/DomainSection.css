@@ -1,0 +1,76 @@
+/* Styles for the domain sections */
+.domain-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+  }
+  
+  .domain-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .domain-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .domain-item {
+    margin-bottom: 5px;
+  }
+  
+  .domain-item .item-name {
+    font-weight: bold;
+  }
+  
+  .domain-item .item-emissions {
+    color: #333;
+  }
+  
+  /* Styles for the language select option */
+  select {
+    background-color:#27ae60;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  select:hover {
+    background-color: #27ae60;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+  
+  /* Styles for the emissions table */
+  .emissions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .emissions-table th,
+  .emissions-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .emissions-table th {
+    font-weight: bold;
+  }
+  
+  .emissions-table tbody tr:nth-child(even) {
+    background-color: #27ae60;
+  }
+  
+  .emissions-table tbody tr:hover {
+    background-color: #eaeaea;
+  }
+  

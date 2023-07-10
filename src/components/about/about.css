@@ -1,0 +1,70 @@
+.about {
+  margin-bottom: 80px;
+}
+.about .heading {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 15px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .about .container {
+    
+    flex-direction: column;
+  }
+  .about .container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .about p {
+    padding: 0;
+  }
+  .about p.blur {
+    filter: blur(5px); /* Apply blur effect to the blurred paragraph */
+  }
+  
+.about .container.expand {
+  height: auto; /* Expand the container height when content is expanded */
+}
+
+.about .container .left.row {
+  width: 100%;
+}
+
+.about .container .right.row {
+  width: 0; /* Initially hide the right column when content is not expanded */
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.about .container.expand .right.row {
+  width: auto; /* Show the right column when content is expanded */
+  opacity: 1;
+}
+  .about img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+  }
+}
+.about .container .left {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.about .container .right {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about .container .right img {
+  max-width: 100%;
+  height: auto;
+}

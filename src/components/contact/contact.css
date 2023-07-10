@@ -1,0 +1,47 @@
+.contact form div {
+  display: flex;
+}
+
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact input {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.contact form {
+  padding: 30px; /* Adjust the padding value as needed */
+  margin-top: -40px; /* Adjust the negative margin value as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact form div {
+    flex-direction: column;
+  }
+
+  .contact input {
+    width: 100%;
+  }
+}
+
+.contact {
+  background-image: url("../images/background.jpg"); /* Replace with the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+.shadow {
+  background-color: rgba(255, 255, 255); /* Adjust the alpha value (0.8) to change the opacity */
+
+}
